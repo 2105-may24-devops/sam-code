@@ -1,4 +1,4 @@
-file_name = input("input file: ")
+file_name = input("input a file: ")
 
 #f = open("data/test.csv")
 f = open(file_name)
