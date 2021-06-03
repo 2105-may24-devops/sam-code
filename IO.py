@@ -3,7 +3,7 @@ file_name = input("input file: ")
 #f = open("data/test.csv")
 f = open(file_name)
 
-data = f.readlines()
+text = f.readlines()
 
-for line in data:
-    print(line)
+for line in text:
+    print("text:",line)
